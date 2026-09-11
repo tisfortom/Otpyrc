@@ -1,0 +1,25 @@
+# Build artifacts
+target/
+build/
+dist/
+*.o
+*.obj
+*.out
+a.out
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Local scratch — never commit real wallet secrets
+*.seed
+*.mnemonic
+secrets/
+scratch/
